@@ -1,0 +1,15 @@
+{
+  "name": "connecttest",
+  "version": "1.0.0",
+  "description": "testing 123",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "^2.12.0"
+  }
+}

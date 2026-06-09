@@ -1,0 +1,38 @@
+# === Go Artifacts ===
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# dependencies
+/node_modules
+
+# Test binaries and coverage artifacts
+*.test
+*.out
+*.coverprofile
+profile.cov
+coverage.*
+
+# Go workspace and environment files
+go.work
+go.work.sum
+.env
+
+# === GoLand / JetBrains IDE ===
+# Covers GoLand project-specific settings
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Absolute path exclusions (if building in root)
+/build/
+/dist/
+/out/
+
+# === OS Garbage ===
+.DS_Store
+Thumbs.db
