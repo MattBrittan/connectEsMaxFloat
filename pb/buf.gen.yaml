@@ -12,5 +12,10 @@ plugins:
     out: js
     include_imports: true
     opt: target=js+dts
+  - remote: buf.build/protocolbuffers/python
+    out: pyt
+  # protocolbuffers/python depends on protocolbuffers/pyi
+  - remote: buf.build/protocolbuffers/pyi
+    out: pyt
 inputs:
   - directory: proto
